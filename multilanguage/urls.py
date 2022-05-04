@@ -1,8 +1,9 @@
 from django.urls import path
-from .views import home
+from .views import details, home
 
 app_name = 'lanapp'
 
 urlpatterns = [
-    path('<slug:slug>/', home, name='home'),
+    path('', home, name='home'),
+    path('<slug:slug>/', details, name='details'),
 ]

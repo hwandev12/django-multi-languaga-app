@@ -14,4 +14,4 @@ class Details(models.Model):
         return self.name
     
     def get_absolute_url(self):
-        return reverse("lanapp:home", kwargs={'slug': self.slug})
+        return reverse("lanapp:details", kwargs={'slug': self.slug})

@@ -18,14 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\core\settings.py:107
-msgid "English"
-msgstr ""
-
-
-#: .\core\settings.py:108
-msgid "Uzbek"
-msgstr ""
 
 #: .\templates\pages\details.html:25
 msgid "Sarlavha"
@@ -34,3 +26,12 @@ msgstr "Heading"
 #: .\templates\pages\details.html:26
 msgid "haqida batafsil"
 msgstr "About us"
+
+#: .\core\settings.py:108
+msgid "Uzbek"
+msgstr ""
+
+#: .\core\settings.py:107
+msgid "English"
+msgstr ""
+

@@ -95,7 +95,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'uz'
 
 TIME_ZONE = 'UTC'
 
@@ -104,8 +104,8 @@ USE_I18N = True
 USE_TZ = True
 
 LANGUAGES = [
-    ('en', _('English')),
     ('uz', _('Uzbek')),
+    ('en', _('English')),
 ]
 
 MODELTRANSLATION_DEFAULT_LANGUAGE = 'uz'
@@ -116,6 +116,7 @@ MODELTRANSLATION_PREPOPULATE_LANGUAGE = 'en'
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
 # locale path for local translations
 LOCALE_PATHS = [
     BASE_DIR / 'locale'

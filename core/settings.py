@@ -108,6 +108,9 @@ LANGUAGES = [
     ('uz', _('Uzbek')),
 ]
 
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'uz'
+MODELTRANSLATION_PREPOPULATE_LANGUAGE = 'en'
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/

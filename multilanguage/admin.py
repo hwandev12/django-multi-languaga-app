@@ -1,4 +1,7 @@
 from django.contrib import admin
-from .models import *
+from .models import Details
+from modeltranslation.admin import TranslationAdmin
 
-admin.site.register(Details)
+@admin.register(Details)
+class DetailsAdmin(admin.ModelAdmin):
+    prepopulated_fields = {'slug': ('name',)}

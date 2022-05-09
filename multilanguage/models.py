@@ -3,7 +3,7 @@ from django.urls import reverse
 
 class Details(models.Model):
     class Meta:
-        verbose_name = 'Details'
+        verbose_name = 'Detail'
         verbose_name_plural = 'Details'
         
     name = models.CharField(max_length=255)

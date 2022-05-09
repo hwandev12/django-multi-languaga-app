@@ -116,6 +116,10 @@ MODELTRANSLATION_PREPOPULATE_LANGUAGE = 'en'
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = 'static/'
+# locale path for local translations
+LOCALE_PATHS = [
+    BASE_DIR / 'locale'
+]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field

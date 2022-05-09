@@ -3,5 +3,5 @@ from .models import Details
 from modeltranslation.admin import TranslationAdmin
 
 @admin.register(Details)
-class DetailsAdmin(admin.ModelAdmin):
+class DetailsAdmin(TranslationAdmin):
     prepopulated_fields = {'slug': ('name',)}
